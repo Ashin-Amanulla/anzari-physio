@@ -1,7 +1,7 @@
 import './globals.css'
 import { Inter, Roboto, Poppins } from 'next/font/google'
-import Navbar from '@/components/navbar/Navbar'
-import Footer from '@/components/footer/Footer'
+import Navbar from '@/components/navbar'
+import Footer from '@/components/footer'
 import 'bootstrap/dist/css/bootstrap.css'
 
 
