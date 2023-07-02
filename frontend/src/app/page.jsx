@@ -1,11 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Hero from "public/hero.svg";
-import Button from "../components/Button/Button.jsx";
-import Feature from "../components/FeatureLayout/Feature.jsx";
-import Services from "../components/serviceLayout/Services.jsx";
-import CTA from "../components/CTA/CTA.jsx";
-import Testimonials from "../components/testimonials/Testimonials.jsx";
+import Button from "@/components/button";
+import Feature from "@/components/featureLayout";
+import Services from "@/components/serviceLayout";
+import CTA from "@/components/CTA";
+import Testimonials from "@/components/testimonials";
 
 export default function Home() {
   return (

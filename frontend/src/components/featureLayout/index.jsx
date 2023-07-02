@@ -40,7 +40,7 @@ const features = [
 ];
 
 
-export default function Example() {
+export default function Feature() {
   return (
     <div className="bg-green-100 py-12 sm:py-12 rounded">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
