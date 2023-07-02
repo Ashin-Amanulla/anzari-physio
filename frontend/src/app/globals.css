@@ -1,0 +1,26 @@
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'tailwindcss/tailwind.css';
+
+html,body,.containerLayout{
+  max-width: 100vw;
+  background-color: #ffffff;
+  overflow-x: hidden !important;
+  color:#4c5c4f;
+}
+
+.pageLayout {
+  max-width: 1366px;
+  min-height: 90vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
