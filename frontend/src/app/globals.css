@@ -9,6 +9,7 @@ html,body,.containerLayout{
   background-color: #ffffff;
   overflow-x: hidden !important;
   color:#4c5c4f;
+  scroll-behavior:smooth !important;
 }
 
 .pageLayout {
@@ -24,3 +25,10 @@ a {
   text-decoration: none !important;
   color: inherit !important;
 }
+
+h2,.icon-color{
+  color:#174EE2 !important
+}
+
+.box-shadow{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}

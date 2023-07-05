@@ -2,10 +2,10 @@ import React from "react";
 import styles from "./button.module.css";
 import Link from "next/link";
 
-const Button = ({ text, url }) => {
+const Button = ({bgColor,txtColor, text, url }) => {
   return (
     <Link href={url}>
-      <button className={styles.buttonContainer}>{text}</button>
+      <button style={{  backgroundColor: bgColor, color:txtColor }} className={styles.buttonContainer}>{text}</button>
     </Link>
   );
 };

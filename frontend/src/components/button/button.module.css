@@ -1,9 +1,8 @@
 .buttonContainer {
     padding: 20px;
     cursor: pointer;
-    background-color: #16637a;
     border: none;
     border-radius: 5px;
     width: max-content;
-    color: white;
+    font-weight: 500;
   }

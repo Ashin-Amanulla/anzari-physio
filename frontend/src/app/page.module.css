@@ -20,7 +20,7 @@
   }
 
   .serviceContainer {
-    background-color: #16637a;
+    background-color: #174EE2;
     border: solid 1px #fff;
     border-radius: 5px;
     display: flex;
@@ -36,7 +36,7 @@
   
   .title {
     /* font-size: 4.5rem; */
-    background: linear-gradient(to bottom, #16637a, #bbb);
+    background:  #174EE2;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

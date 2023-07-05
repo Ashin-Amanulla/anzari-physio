@@ -25,12 +25,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="containerLayout py-3 ">
-          <div className='container'>
+        <div className="containerLayout  ">
           <Navbar />
           {children}
           <Footer />
-          </div>
         
 
 
