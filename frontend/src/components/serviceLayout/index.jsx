@@ -4,7 +4,12 @@ import {
   ServerIcon,
 } from "@heroicons/react/20/solid";
 import Image from "next/image";
-import Illustration from "public/physio.webp";
+import Illustration1 from "public/condition1.svg";
+import Illustration2 from "public/condition2.svg";
+import Illustration3 from "public/condition3.svg";
+import Illustration4 from "public/condition4.svg";
+
+
 
 const features = [
   {
@@ -83,7 +88,21 @@ export default function Services() {
               </dl>
             </div>
           </div>
-          <Image className="box-shadow rounded" src={Illustration} alt="" />
+          <div className="grid grid-cols-2 gap-4">
+    <div className="rounded overflow-hidden">
+      <Image className="w-full" src={Illustration1} alt="" />
+    </div>
+    <div className="rounded overflow-hidden">
+      <Image className="w-full" src={Illustration2} alt="" />
+    </div>
+    <div className="rounded overflow-hidden">
+      <Image className="w-full" src={Illustration3} alt="" />
+    </div>
+    <div className="rounded overflow-hidden">
+      <Image className="w-full" src={Illustration4} alt="" />
+    </div>
+    </div>
+
         </div>
       </div>
     </div>

@@ -19,7 +19,7 @@ export default function CTA() {
             </p>
             <div className="m-10 flex items-center justify-center  ">
             <Button 
-            txtColor='#174EE2'
+            txtColor='#00BAFF'
             bgColor='#ffff'
              url="/contact" text="Book Appoinment"/>
 

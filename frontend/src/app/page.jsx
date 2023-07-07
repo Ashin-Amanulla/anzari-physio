@@ -23,8 +23,8 @@ export default function Home() {
             Solutions
           </p>
           <Button
-            txtColor="#174EE2"
-            bgColor="#ffff"
+            txtColor="#00BAFF"
+            bgColor="#faf7f7"
             url="#contactSection"
             text="Book Appoinment"
           />
