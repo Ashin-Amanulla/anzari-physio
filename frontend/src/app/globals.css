@@ -13,7 +13,7 @@ html,body,.containerLayout{
 }
 
 .pageLayout {
-  max-width: 1366px;
+  /* max-width: 1366px; */
   min-height: 90vh;
   margin: 0 auto;
   display: flex;

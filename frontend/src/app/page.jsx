@@ -11,8 +11,8 @@ import Contact from "@/components/contactSection";
 export default function Home() {
   return (
     <div className="pageLayout">
-      <div className={`${styles.heroContainer} py-24 sm:py-24 px-3`}>
-        <div className={styles.item}>
+      <div className={`${styles.heroContainer} py-24 sm:py-24 px-6 sm:px-24 md:px-24 `}>
+        <div className= { `${styles.item} `}>
           <h1
             className={`${styles.title} text-5xl sm:text-7xl font-bold leading-tight`}
           >
@@ -23,8 +23,8 @@ export default function Home() {
             Solutions
           </p>
           <Button
-            txtColor="#ffff"
-            bgColor="#174EE2"
+            txtColor="#174EE2"
+            bgColor="#ffff"
             url="#contactSection"
             text="Book Appoinment"
           />

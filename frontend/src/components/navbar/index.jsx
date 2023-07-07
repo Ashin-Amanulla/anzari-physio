@@ -36,7 +36,7 @@ export default function Navbar() {
   return (
     <div className="container py-3">
       <div
-        className={`d-flex justify-between items-center pt-5 ${styles.navbar}`}
+        className={`d-flex justify-between items-center  ${styles.navbar}`}
       >
         <Link href="/" className={styles.logo}>
           <Image src={Logo} alt="Logo" width={128} height={32} />
