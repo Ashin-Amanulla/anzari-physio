@@ -6,6 +6,7 @@ import Feature from "@/components/featureLayout";
 import Services from "@/components/serviceLayout";
 import CTA from "@/components/CTA";
 import Testimonials from "@/components/testimonials";
+import Contact from "@/components/contactSection";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
           <Button
             txtColor="#ffff"
             bgColor="#174EE2"
-            url="/contact"
+            url="#contactSection"
             text="Book Appoinment"
           />
         </div>
@@ -41,8 +42,9 @@ export default function Home() {
         <Services />
         <CTA />
 
+        <Testimonials />
         <section id="contactSection">
-          <Testimonials />
+          <Contact />
         </section>
       </div>
     </div>

@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./navbar.module.css";
+import Logo from '../../../public/AP-Logo.png'
 const links = [
   {
     id: 1,
@@ -24,12 +26,7 @@ const links = [
 
 export default function Navbar() {
 
-  const scrollToSection = (sectionId) => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+ 
 
 
   return (          
@@ -37,7 +34,12 @@ export default function Navbar() {
 
     <div className=" d-flex justify-between items-center pt-5">
       <Link href="/" className={styles.logo}>
-        Action +
+        <Image
+        src={Logo}
+        alt="Logo"
+        width={128}
+        height={32}
+        />
       </Link>
 
       <div className={styles.links}>
