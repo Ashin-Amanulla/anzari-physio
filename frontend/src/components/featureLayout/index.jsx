@@ -1,48 +1,48 @@
-import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from '@heroicons/react/24/outline'
+import { ArrowPathIcon,  BarsArrowUpIcon, ArrowRightOnRectangleIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {
     name: 'Personalized Treatment Plans',
     description:
       'Our experienced physiotherapists create customized treatment plans tailored to your specific needs and goals, ensuring effective and targeted therapy.',
-    icon: LockClosedIcon,
+    icon: ArrowRightOnRectangleIcon,
   },
   {
     name: 'Evidence-Based Practices',
     description:
       'We follow the latest evidence-based practices in physiotherapy to deliver treatments that are supported by scientific research and proven to be effective.',
-    icon: LockClosedIcon,
+    icon: ArrowRightOnRectangleIcon,
   },
   {
     name: 'One-on-One Sessions',
     description:
       'We provide dedicated one-on-one therapy sessions, allowing our physiotherapists to focus on your individual progress and provide personalized attention throughout your journey.',
-    icon: LockClosedIcon,
+    icon: ArrowRightOnRectangleIcon,
   },
   {
     name: 'Pain Management',
     description:
       'Our specialized pain management techniques help alleviate pain, reduce inflammation, and improve your overall comfort and well-being.',
-    icon: LockClosedIcon,
+    icon: ArrowRightOnRectangleIcon,
   },
   {
     name: 'Injury Rehabilitation',
     description:
       'We offer comprehensive injury rehabilitation programs to help you recover from sports injuries, accidents, or surgeries, and regain your strength, mobility, and function.',
-    icon: LockClosedIcon,
+    icon: ArrowRightOnRectangleIcon,
   },
   {
     name: 'Sports Performance Enhancement',
     description:
       'Our sports-focused physiotherapy programs are designed to optimize athletic performance, prevent injuries, and enhance your overall physical abilities.',
-    icon: LockClosedIcon,
+    icon: ArrowRightOnRectangleIcon,
   },
 ];
 
 
 export default function Feature() {
   return (
-    <div className="bg-green-100 py-12 sm:py-12 my-12 rounded">
+    <div className="bg-sky-50 py-12 sm:py-12 my-12 rounded">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="text-base font-semibold leading-7 text-blue-600">Why Choose Us?</h2>
@@ -58,7 +58,7 @@ export default function Feature() {
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">
                 <dt className="text-base font-semibold leading-7 text-gray-900">
-                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-500">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-sky-500">
                     <feature.icon className="h-6 w-6 text-white " aria-hidden="true" />
                   </div>
                   {feature.name}
