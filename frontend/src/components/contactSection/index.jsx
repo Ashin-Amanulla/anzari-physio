@@ -21,8 +21,8 @@ export default function Contact() {
                 </div>
               </div>
               <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12">
-                <div class="flex flex-wrap px-3 pt-12 pb-12 md:pb-0 lg:pt-0">
-                  <div class="mb-12 w-full shrink-0 grow-0 basis-auto px-3 md:w-6/12 md:px-6 lg:w-full xl:w-6/12 xl:px-12">
+                <div class="flex flex-wrap px-0 sm:px-0 md:sm:0 pt-12 pb-12 md:pb-0 lg:pt-0">
+                  <div class="mb-12 w-full shrink-0 grow-0 basis-auto px-3 sm:px-0 md:w-6/12 md:px-0 lg:w-full xl:w-6/12 xl:px-12">
                     <div class="flex items-start">
                       <div class="shrink-0">
                         <div class="inline-block rounded-md bg-primary-100 p-4 text-primary  text-xl">
