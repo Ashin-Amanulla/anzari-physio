@@ -1,5 +1,8 @@
 import React from 'react'
 import Image from "next/image";
+import T1 from "public/T1.jpeg";
+import T2 from "public/T2.jpeg";
+import T3 from "public/T3.jpeg";
 
 
 
@@ -16,7 +19,7 @@ export default function Testimonials() {
 
 
 <Image
-  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg"
+  src={T1}
   alt="Avatar"
   width={32}
   height={32}
@@ -70,7 +73,7 @@ export default function Testimonials() {
       <div className="mb-12 md:mb-0">
         <div className="mb-6 flex justify-center">
         <Image
-  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg"
+  src={T2}
   alt="Avatar"
   width={32}
   height={32}
@@ -124,7 +127,7 @@ export default function Testimonials() {
       <div className="mb-0">
         <div className="mb-6 flex justify-center">
         <Image
-  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg"
+  src={T3}
   alt="Avatar"
   width={32}
   height={32}

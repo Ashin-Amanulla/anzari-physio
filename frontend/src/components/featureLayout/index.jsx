@@ -1,4 +1,4 @@
-import { ArrowPathIcon,  BarsArrowUpIcon, ArrowRightOnRectangleIcon } from '@heroicons/react/24/outline'
+import {    ArrowRightOnRectangleIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {

@@ -1,7 +1,5 @@
 import {
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  ServerIcon,
+  ChevronRightIcon
 } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import Illustration1 from "public/condition1.svg";
@@ -14,43 +12,43 @@ import Illustration4 from "public/condition4.svg";
 const features = [
   {
     name: "Sports injuries.",
-    icon: CloudArrowUpIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: "Back pain.",
-    icon: LockClosedIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: "Muscle strains.",
-    icon: ServerIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: "Sprains.",
-    icon: CloudArrowUpIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: "Neck pain.",
-    icon: LockClosedIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: "Shoulder strains.",
-    icon: ServerIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: "Knee Injuries.",
-    icon: CloudArrowUpIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: "Tendonities.",
-    icon: LockClosedIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: "Scratica.",
-    icon: ServerIcon,
+    icon: ChevronRightIcon,
   },
   {
     name: "Scratica2.",
-    icon: ServerIcon,
+    icon: ChevronRightIcon,
   },
 ];
 

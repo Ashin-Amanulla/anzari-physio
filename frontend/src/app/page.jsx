@@ -7,10 +7,15 @@ import Services from "@/components/serviceLayout";
 import CTA from "@/components/CTA";
 import Testimonials from "@/components/testimonials";
 import Contact from "@/components/contactSection";
+import { FaWhatsapp } from "react-icons/fa";
+
+
+
 
 export default function Home() {
   return (
     <div className="pageLayout">
+       
       <div className={`${styles.heroContainer} py-24 sm:py-24 px-6 sm:px-24 md:px-24 `}>
         <div className= { `${styles.item} `}>
           <h1
@@ -47,6 +52,15 @@ export default function Home() {
           <Contact />
         </section>
       </div>
+      {/* WhatsApp icon */}
+      <a
+        href="https://wa.me/message/6BPAMDRGWJ26F1"
+        class="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaWhatsapp color="white" className="whatsapp-icon"/>
+      </a>
     </div>
   );
 }
