@@ -40,7 +40,7 @@ export default function Home() {
       </div>
 
       <div className="container">
-        <section id="servicesSection">
+        <section id="services">
           <Feature />
         </section>
 
@@ -48,7 +48,7 @@ export default function Home() {
         <CTA />
 
         <Testimonials />
-        <section id="contactSection">
+        <section id="contact">
           <Contact />
         </section>
       </div>

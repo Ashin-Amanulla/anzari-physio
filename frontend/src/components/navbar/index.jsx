@@ -10,19 +10,19 @@ const links = [
     id: 1,
     title: "Home",
     url: "/",
-    sectionId: "#homeSection",
+    sectionId: "#home",
   },
   {
     id: 2,
     title: "Services",
     url: "/services",
-    sectionId: "#servicesSection",
+    sectionId: "#services",
   },
   {
     id: 3,
     title: "Contact",
     url: "/contact",
-    sectionId: "#contactSection",
+    sectionId: "#contact",
   },
 ];
 
