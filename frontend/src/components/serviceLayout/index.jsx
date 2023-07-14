@@ -47,7 +47,35 @@ const features = [
     icon: ChevronRightIcon,
   },
   {
-    name: "Scratica2.",
+    name: "Ortho rehabilitation.",
+    icon: ChevronRightIcon,
+  },
+  {
+    name: "Sports injury rehabilitation.",
+    icon: ChevronRightIcon,
+  },
+  {
+    name: "Neuro rehabilitation.",
+    icon: ChevronRightIcon,
+  },
+  {
+    name: "Pediatric rehabilitation.",
+    icon: ChevronRightIcon,
+  },
+  {
+    name: "Pulmonary rehabilitation.",
+    icon: ChevronRightIcon,
+  },
+  {
+    name: "Cardiac rehabilitation.",
+    icon: ChevronRightIcon,
+  },
+  {
+    name: "Geriatric rehabilitation.",
+    icon: ChevronRightIcon,
+  },
+  {
+    name: "Manual therapy.",
     icon: ChevronRightIcon,
   },
 ];

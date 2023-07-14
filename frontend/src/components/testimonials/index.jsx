@@ -26,7 +26,7 @@ export default function Testimonials() {
   className="w-32 rounded-full shadow-lg dark:shadow-black/20"
 />
         </div>
-        <h5 className="mb-2 text-lg font-bold">Maria Smantha</h5>
+        <h5 className="mb-2 text-lg font-bold">Mansoor Muhammed</h5>
         <h6 className="mb-4 font-medium text-primary dark:text-primary-400">
           Web Developer
         </h6>
@@ -80,7 +80,7 @@ export default function Testimonials() {
   className="w-32 rounded-full shadow-lg dark:shadow-black/20"
 />
         </div>
-        <h5 className="mb-2 text-lg font-bold">Lisa Cudrow</h5>
+        <h5 className="mb-2 text-lg font-bold">Sangeeth Sathyan</h5>
         <h6 className="mb-4 font-medium text-primary dark:text-primary-400">
           Graphic Designer
         </h6>
@@ -134,7 +134,7 @@ export default function Testimonials() {
   className="w-32 rounded-full shadow-lg dark:shadow-black/20"
 />
         </div>
-        <h5 className="mb-2 text-lg font-bold">John Smith</h5>
+        <h5 className="mb-2 text-lg font-bold">Ajmal Khan</h5>
         <h6 className="mb-4 font-medium text-primary dark:text-primary-400">
           Marketing Specialist
         </h6>
