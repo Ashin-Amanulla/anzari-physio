@@ -17,7 +17,7 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: 'Action +',
+  title: 'Actioplus',
   description: 'Physiotherapy',
 }
 
