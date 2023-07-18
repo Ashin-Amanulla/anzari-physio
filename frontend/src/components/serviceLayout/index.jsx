@@ -10,72 +10,37 @@ import Illustration4 from "public/condition4.svg";
 
 
 const features = [
+ 
   {
-    name: "Sports injuries.",
+    name: "Ortho rehabilitation",
     icon: ChevronRightIcon,
   },
   {
-    name: "Back pain.",
+    name: "Sports injury rehabilitation",
     icon: ChevronRightIcon,
   },
   {
-    name: "Muscle strains.",
+    name: "Neuro rehabilitation",
     icon: ChevronRightIcon,
   },
   {
-    name: "Sprains.",
+    name: "Pediatric rehabilitation",
     icon: ChevronRightIcon,
   },
   {
-    name: "Neck pain.",
+    name: "Pulmonary rehabilitation",
     icon: ChevronRightIcon,
   },
   {
-    name: "Shoulder strains.",
+    name: "Cardiac rehabilitation",
     icon: ChevronRightIcon,
   },
   {
-    name: "Knee Injuries.",
+    name: "Geriatric rehabilitation",
     icon: ChevronRightIcon,
   },
   {
-    name: "Tendonities.",
-    icon: ChevronRightIcon,
-  },
-  {
-    name: "Scratica.",
-    icon: ChevronRightIcon,
-  },
-  {
-    name: "Ortho rehabilitation.",
-    icon: ChevronRightIcon,
-  },
-  {
-    name: "Sports injury rehabilitation.",
-    icon: ChevronRightIcon,
-  },
-  {
-    name: "Neuro rehabilitation.",
-    icon: ChevronRightIcon,
-  },
-  {
-    name: "Pediatric rehabilitation.",
-    icon: ChevronRightIcon,
-  },
-  {
-    name: "Pulmonary rehabilitation.",
-    icon: ChevronRightIcon,
-  },
-  {
-    name: "Cardiac rehabilitation.",
-    icon: ChevronRightIcon,
-  },
-  {
-    name: "Geriatric rehabilitation.",
-    icon: ChevronRightIcon,
-  },
-  {
-    name: "Manual therapy.",
+    name: "Manual therapy",
     icon: ChevronRightIcon,
   },
 ];
