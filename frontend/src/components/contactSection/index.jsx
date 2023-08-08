@@ -8,7 +8,7 @@ export default function Contact() {
       <section class="mb-32">
         <div class="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat bg-[url('https://somacare.co.in/wp-content/uploads/2019/02/contact-us-banner.png')]"></div>
         <div class="container px-6 md:px-12">
-          <div class="block rounded-lgbg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px]">
+          <div class="block rounded-lgbg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px]">
             <div class="flex flex-wrap items-center">
               <div class="block w-full shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-4/12">
                 <div class="h-[500px] w-full">
@@ -30,9 +30,9 @@ export default function Contact() {
                         </div>
                       </div>
                       <div class="ml-6 grow">
-                        <p class="mb-2 font-bold dark:text-white">Phone</p>
+                        <p class="mb-2 font-bold ">Phone</p>
 
-                        <p class="text-neutral-500 dark:text-neutral-200">
+                        <p class="text-neutral-500 ">
                           +91 81291 39739
                         </p>
                       </div>
@@ -46,8 +46,8 @@ export default function Contact() {
                         </div>
                       </div>
                       <div class="ml-6 grow">
-                        <p class="mb-2 font-bold dark:text-white">Mail</p>
-                        <p class="text-neutral-500 dark:text-neutral-200">
+                        <p class="mb-2 font-bold ">Mail</p>
+                        <p class="text-neutral-500 ">
                           info@actioplus.in
                         </p>
                       </div>
@@ -61,8 +61,8 @@ export default function Contact() {
                         </div>
                       </div>
                       <div class="ml-6 grow">
-                        <p class="mb-2 font-bold dark:text-white">Location</p>
-                        <p class="text-neutral-500 dark:text-neutral-200">
+                        <p class="mb-2 font-bold ">Location</p>
+                        <p class="text-neutral-500 ">
                           Actioplus Physiotherapy & Pain Clinic, Vadakkemukku,
                           Kannanalloor,Kollam, Kerala 691576
                         </p>
@@ -79,9 +79,9 @@ export default function Contact() {
                         </div>
                       </div>
                       <div class="ml-6 grow">
-                        <p class="mb-2 font-bold dark:text-white">WhatsApp</p>
+                        <p class="mb-2 font-bold ">WhatsApp</p>
 
-                        <p class="text-neutral-500 dark:text-neutral-200">
+                        <p class="text-neutral-500 ">
                           +91 81291 39739
                         </p>
                       </div>
