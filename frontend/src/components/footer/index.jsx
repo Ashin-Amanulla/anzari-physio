@@ -46,7 +46,7 @@ const Footer = () => {
                   
                   <ul class="text-gray-600  font-medium">
                       <li class="mb-4">
-                          <a href="#" class="hover:underline">Developers</a>
+                          <a href="https://xyvin.com" target="_blank" class="hover:underline">Developers</a>
                       </li>
                       <li>
                           <a href="#" class="hover:underline">Terms &amp; Conditions</a>
@@ -57,7 +57,7 @@ const Footer = () => {
       </div>
       <hr class="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
       <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-gray-500 sm:text-center ">© 2023 <a href="https://g.co/kgs/WjrV8u" class="hover:underline">Action+</a>. All Rights Reserved.
+          <span class="text-sm text-gray-500 sm:text-center "> <a href="https://xyvin.com" target="_blank" class="hover:underline">⚡ Synthesized by Xyvin - Weaving Digital Dreams</a>
           </span>
           <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
               <a href="https://g.co/kgs/WjrV8u" class="text-gray-500 hover:text-gray-900">

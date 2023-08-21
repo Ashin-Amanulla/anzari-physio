@@ -30,7 +30,7 @@ export default function Home() {
           <Button
             txtColor="#00BAFF"
             bgColor="#faf7f7"
-            url="#contactSection"
+            url="#contact"
             text="Book Appoinment"
           />
         </div>
